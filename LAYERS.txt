@@ -1,0 +1,158 @@
+WEBSITE
+
+4.USER(DESIGN)
+3.APPLICATION (WEBSERVER APPLICATION)APACHE,NODE,REACT,GOOGLE FLUTTER
+2.OS(SERVER VESION)
+1.HARDWARE (MEMORY,STORAGE,CPU)
+--------------------------------
+EMAIL SERVER 
+
+EMAILS
+APPLICATION EMAIL SERVER
+OS SERVER
+HARDWARE
+------------------------
+cloud characteristics
+
+on-demand self service
+broad network access
+resource pooling
+elasticity
+measured services
+-------------
+Syllabus
+
+os
+server-client
+virtualization
+Linux
+cloud computing
+------------------------------
+CLOUD SERVICE PROVIDER
+
+Iaas-->Infrastructure as a service
+Paas-->Platform as a service
+Saas-->Software as a service
+
+
+udantu
+apache2
+apt-get update
+apt-get install apache2
+80 port
+systemctl start apache2
+
+/var/www/html/index.html
+
+------------------
+
+in aws
+search for aws  elastic beanstalk or serices->compute->elastic bean stalk
+Open and click create application
+
+give the name
+and check domain availability 
+
+------
+IANA - internet assigned numbers authority
+
+IPv4 addresses - 4.3 billion
+IPv6 addresses(from 2003) - 340 undecillion
+
+getmac --> getmedia access control(physical address)
+
+ipconfig /all--> gives complete info 
+
+tracert--> to trace the route between servers
+
+ping -icmp--> internet control messaging protocol
+
+IPV4 - classes
+A 0-127
+B 128-191
+c 192-223
+D 224-239
+E 240-255
+---------
+a class N:H:H:H
+1.0.0.0 first
+127.255.255.255-last
+this 2 are not useable
+256th ip-1.0.1.0
+257th ip-1.0.1.1
+273th ip-1.0.1.17
+b class N:N:H:H
+128.0.0.0 first
+191.255.255.255 last
+c class N:N:N:H
+last ip in c class -223.255.255.255
+last network in c class -22
+---------
+a b c 1-223    unicasting
+d     224-239  multicasting
+e     240-255  r&d, special use
+----------
+RF1918 pvt ip range
+10.0.0.0-10   - 255.255.255
+172.16.0.0    - 172.31.255.255
+192.168.0.0   - 192.168.255.255
+----------------------
+
+storage services 
+
+data-durability- 11 9's
+3 types:
+data in rest
+data in transit
+data in process
+storage disks- floppies,cd,dvd,pen drives,tapes
+
+HDD-Hard disk drive-Permanent storage-old
+SDD- solid state drive-permanent storage -new
+IOPS- input output operations per second
+
+PURPOSE STORAGE
+
+BLOCK STORAGE  - INTERNAL- CHANGES THE RESPECTIVE BLOCK ONLY
+OBJECT STORAGE - EXTRENAL- CHANGES THEM RESPECTIVELY
+AWS SERVICES-
+	BLOCK-EC2 INSTANCES-OS-BOOT
+	AWS EBS- ELASTIC BEAN STALK
+	
+	OBJECT-S3-
+
+
+
+
+
+
+windows-diskmgmt.msc
+
+
+-----------
+
+object storage-aws s3
+sss- SIMPLE STORAGE SERVICE
+UNLIMITED STORAGE
+INWARD CONNECTIONS TO CLOUD
+OUTWARD CONNECTIONS CHARGED
+
+S3-STORAGE TIERS,DAILY STORAGE NEEDS
+S3 STANDRAD  - 99.99 AVAILABILITY
+		11 9'S DURABILITY
+S3 IA
+S3 ONE ZONE -IA
+S3 GLACIER -LESS EXPENSIVE AND ITS IN FREQUENT ACCESS TAKES MORE THAN 2 HRS
+S3 GLACIER DEEP ARCHIVE -5 HRS
+S3 SNOW FAMILY-MIGRATING
+S3 SNOWBALL- TERA TO PETA
+S3 SNOWMOBILE-PERA TO EXA
+
+---------------------------------------
+acl- access control list
+
+
+
+
+
+

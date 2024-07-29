@@ -1,0 +1,13 @@
+remote connections:
+
+rdp-3389-windows-secured(encrypted)
+ssh-22-linux-secured(encrypted)
+telnet-23-linux unsecured(plain text)
+this are file transfer protocols:
+sftp-22- secured and encrypted
+ftp-21- file transfer protocol(unsecured)
+
+http-80-not secured(unencrypted)
+https-443-secured(encrypted)
+
+
